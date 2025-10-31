@@ -1,0 +1,27 @@
+:root {
+  font-family: Inter, system-ui, sans-serif;
+} /* глобален четим шрифт */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
+} /* центрира съдържанието */
+.nav {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+} /* хоризонтално меню */
+.grow {
+  flex: 1;
+} /* избутва следващите елементи вдясно */
+.link {
+  text-decoration: none;
+  color: #0b5;
+  font-weight: 600;
+} /* стил за навигационни линкове */
+.card {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 12px;
+} /* проста “картичка” контейнер */
