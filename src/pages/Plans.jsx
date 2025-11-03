@@ -3,7 +3,7 @@ import { mockPlans } from "../data/mockPlans.js";
 
 export default function Plans() {
   function handleSelect(plan) {
-    alert(`Selected plan: ${plan.title}}`);
+    alert(`Selected plan: ${plan.title}`);
   }
   return (
     <section>
